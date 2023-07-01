@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-	<h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1>
+	<a href="../index.html"><h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1></a>
 	<nav>
 		<ul>
 			<li>projets</li>
@@ -23,18 +23,20 @@
 	</nav>
 </header>
 <main>
-	<h2>Log In</h2>
+	
 
-    <section>
+    <section id="form">
 
-			<p id="login-error-message">Erreur dans l’identifiant ou le mot de passe</p>
+		<h2>Log In</h2>
 
-            <form action="" id="loginForm">
+		<p id="login-error-message">Erreur dans l’identifiant ou le mot de passe</p>
+
+		<form action="" id="loginForm">
             <label for="email">E-mail</label>
             <input type="text" id="loginUser">
 
             <label for="pw">Mot de passe</label>
-            <input type="text" id="loginPassword">
+            <input type="password" id="loginPassword">
 
             <input type="submit" value="Se connecter">
 

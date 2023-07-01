@@ -113,6 +113,7 @@ button:disabled, button[disabled] {
 
 li:hover {
 	color: #B1663C;
+	cursor: pointer;
 }
 #introduction {
 	display: flex;
